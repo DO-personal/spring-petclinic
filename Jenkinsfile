@@ -96,5 +96,7 @@ def softwareVersion() {
         java -version
         ./mvnw -version
         docker version
+	./mvnw package
+	java -jar target/*.jar
     """
 }
